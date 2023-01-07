@@ -1,5 +1,50 @@
-.banner-header-style{
+*{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/*.header{
+    background-image: url('../images/banner/banner1.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}*/
+
+.banner-header{
+    color: darkblue;
+    font-weight: 700;
+    font-size: 65px;
+    height: 350px;
+    margin-bottom: 24px;
+}
+.banner{
+    text-align: right;
+}
+
 /* header styles */
+.btn-primary{
+    color: aliceblue;
+    font-weight: 700;
+    height: 50px;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 28px;
+    background: coral;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left:120px;
+}
+.section-body{
+    margin-top: 270px;
+    margin-left: 80px;
+    margin-right: 270px;
+}
+.section description-header{
+    padding-bottom: 50px;
+}
+.section-description{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
