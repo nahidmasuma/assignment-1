@@ -2,27 +2,34 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-/*.header{
+header{
     background-image: url('../images/banner/banner1.png');
-    height: 100%;
+    width: 100%;
+    height: 700px;
     background-repeat: no-repeat;
-    background-size: cover;
     position: absolute;
-}*/
+}
+main{
+    margin-left: 100px;
+}
 
 .banner-header{
     color: darkblue;
-    font-weight: 700;
-    font-size: 65px;
-    height: 350px;
-    margin-bottom: 24px;
+    font-size: 50px;
+    margin-top: 200px; 
+    padding-bottom: 30px;  
 }
 .banner{
     text-align: right;
+    margin-right: 200px;
+    margin-left: 700px;
 }
-
+.banner-description{
+   font-size: small; 
+}
 /* header styles */
 .btn-primary{
+    margin-top: 20px;
     color: aliceblue;
     font-weight: 700;
     height: 50px;
@@ -31,20 +38,69 @@
     padding: 10px 28px;
     background: coral;
 }
-.section{
+.btn-seceondary{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px 20px 26px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    width: 50%;
+}
+/* Future Plan Section */
+
+.plan-container{
     display: flex;
-    justify-content: space-between;
-    margin-left:120px;
+    align-items: center;
+    justify-content:center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    gap:87px;
+    
 }
-.section-body{
-    margin-top: 270px;
-    margin-left: 80px;
-    margin-right: 270px;
-}
-.section description-header{
-    padding-bottom: 50px;
-}
-.section-description{
+
+.plan{
     padding-top: 50px;
-    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plan-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+.skills-container{
+    padding-top: 100px;
+    display: flex;
+    gap: 130px;
+}
+
+.section-title{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-banner-container{
+    background-image: url(/images/watch.png);
+    height: 30vh;
+    width:100%;
+    position:relative;
+    background-repeat: no-repeat;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: left;
+}
+.color-overlay{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/gradient3.png);
+    height: 30vh;
+    width: 1024px;
+    opacity: 0.4;
+    position: absolute;
 }
